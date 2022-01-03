@@ -1,10 +1,15 @@
 .dishcontainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.dishcontainer > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 p {
   margin-left: 30px;
 }
 button {
   margin-bottom: 10px;
+  margin-left: 30px;
 }

@@ -14,6 +14,7 @@ function cartdisplay(arr){
         img.src=elem.strCategoryThumb;
         let name=document.createElement("p");
         name.textContent="Dish name: "+elem.strCategory;
+        name.style.color="blue"
         let price=document.createElement("p");
         price.textContent="Rs  "+Math.floor(Math.random()*500+100);
         // carttotal=carttotal+price;
