@@ -1,0 +1,19 @@
+.addresscontainer {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+.addresscontainer > input {
+  display: block;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 30px;
+}
+button {
+  width: 120px;
+  height: 25px;
+  margin-left: 40px;
+  border-radius: 10px;
+  background-color: blue;
+}
